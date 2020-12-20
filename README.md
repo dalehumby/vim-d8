@@ -2,9 +2,9 @@
 
 Plugin to add syntax highlighting to the D8 assembly files used in my [D8 CPU](https://github.com/dalehumby/d8) project.
 
-Files with extension `.asm` will set a filetype of `d8asm`. You can also force the filetype in Vim the command `set filetype=d8asm`
+Files with extension `.asm` will set a filetype of `d8asm`. You can also force the filetype in Vim with the command `set filetype=d8asm`
 
-![screenshot](https://github.com/dalehumby/vim-d8/blob/master/screenshot.png)
+![screenshot](https://github.com/dalehumby/vim-d8/blob/main/screenshot.png)
 
 ## Installation
 
