@@ -21,7 +21,7 @@ syn keyword d8BranchInstr   BCC BCS BEQ BNE BRA BSR nextgroup=d8Location
 syn match   d8Location      "\s\+\w\+" contained
 syn match   d8Label         "\w\+:"
 
-syn match	d8Operator      "[+-/*\(\)]"
+syn match	d8Operator      "[+-/*\(\)<>]"
 syn match   d8Decimal       "\d\+"
 syn match   d8Hex           "0x[0-9A-F]\+"
 syn region  d8String        start="\"" end="\""
